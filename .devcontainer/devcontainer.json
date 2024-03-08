@@ -13,7 +13,7 @@
             "ppa": "false"
         }
 	},
-
+	"postAttachCommand": "minikube start",
 	// Configure tool-specific properties.
 	"customizations": {
 		// Configure properties specific to VS Code.
@@ -31,7 +31,9 @@
 			},
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
-				"vscjava.vscode-java-pack"
+				"vscjava.vscode-java-pack",
+				"hashicorp.terraform",
+				"ms-kubernetes-tools.vscode-kubernetes-tools"
 			]
 		}
 	},
